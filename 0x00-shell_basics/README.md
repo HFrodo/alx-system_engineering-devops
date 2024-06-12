@@ -1,1 +1,1 @@
-Shell Basics tasks here
+absolute path name of wd
