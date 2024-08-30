@@ -1,0 +1,7 @@
+#!/bin/bash
+find . -empty -exec sh -c '
+for file do
+	fname="${file##*/}"
+	echo "$fname"
+done
+' sh {} +
