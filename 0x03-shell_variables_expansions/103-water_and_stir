@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "$(( $(printf "%d" $(echo "$WATER" | tr 'ewwatratewa' '0123456789')) + $(printf "%d" $(echo "$STIR" | tr 'ti.itirtrtr' '0123456789')) ))" | tr '0123456789' 'bestchol'
