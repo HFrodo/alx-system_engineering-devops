@@ -3,7 +3,7 @@
 
 phrase="Best School"
 
-for i in {0..10}
+for _ in {0..10}
 do
-	echo $phrase
+	echo "$phrase"
 done
